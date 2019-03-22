@@ -13,5 +13,5 @@ Displays an animated gif when loading
     {!this.state.loading?
     do something
     :
-    <LoadingAnimation image={animated-gif} message={translate.Loading} />
+    <LoadingAnimation image={animated-gif} message="Loading" />
     }
